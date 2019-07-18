@@ -1,0 +1,29 @@
+{
+  "name": "banco_central",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/avilajul/banco_central.git"
+  },
+  "keywords": [
+    "API",
+    "REST",
+    "Banco",
+    "EXPRESS"
+  ],
+  "author": "Julián Avila",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/avilajul/banco_central/issues"
+  },
+  "homepage": "https://github.com/avilajul/banco_central#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1"
+  }
+}
