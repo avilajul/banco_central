@@ -7,10 +7,14 @@ const app = express();
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 
+require("./api/router.js")(app);
+const db = require("./bd/bd.js");
+db.connection;
+
 //Funciones que responden a los métodos GET POST PUT DELETE
-app.get("/", (req, res) => {
+/* app.get("/", (req, res) => {
   res.send("Hola mundo");
-});
+}); */
 
 app.listen(3500, () => {
   console.log("El servidor está corriendo por el puerto 3500");
